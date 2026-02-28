@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Laptop Pro 14",
+        "description": "Ultrabook 14 pouces, 16Go RAM, SSD 512Go, usage pro et creation.",
+        "price": 1199,
+        "stock": 6,
+        "id": 1,
+        "created_at": "2026-02-24 09:09:07",
+        "updated_at": "2026-02-26 17:47:44"
+    },
+    {
+        "name": "Smartphone X9",
+        "description": "Ecr3an OLED 120Hz, 256Go, camera 50MP avec stabilisation.",
+        "price": 78954,
+        "stock": 37,
+        "id": 2,
+        "created_at": "2026-02-24 09:09:07",
+        "updated_at": "2026-02-26 17:39:34"
+    },
+    {
+        "id": 3,
+        "name": "Casque Studio Wireless",
+        "description": "Reduction de bruit active, autonomie 40h, son haute fidelite.",
+        "price": 199,
+        "stock": 30,
+        "created_at": "2026-02-24 09:09:07"
+    },
+    {
+        "name": "Souris Ergonomique Pro",
+        "description": "Souris verticale ergonomique, capteur 8000 DPI, recharge USB-C.",
+        "price": 69,
+        "stock": 35,
+        "id": 4,
+        "created_at": "2026-02-24 09:09:07",
+        "updated_at": "2026-02-26 09:05:24"
+    }
+]
