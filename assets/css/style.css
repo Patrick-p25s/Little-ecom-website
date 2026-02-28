@@ -1,0 +1,96 @@
+:root {
+    --rc-primary: #cf202f;
+    --rc-primary-dark: #a01422;
+    --rc-soft: #ffe7ea;
+    --rc-bg: #fff9fa;
+    --rc-text: #2a1619;
+}
+
+body {
+    background:
+        radial-gradient(circle at 0% 0%, #ffd7dd 0, transparent 35%),
+        radial-gradient(circle at 100% 20%, #ffe3e7 0, transparent 40%),
+        linear-gradient(160deg, var(--rc-bg) 0%, #ffffff 40%, #fff3f4 100%);
+    color: var(--rc-text);
+    min-height: 100vh;
+}
+
+.custom-nav {
+    background: linear-gradient(90deg, var(--rc-primary-dark), var(--rc-primary));
+    box-shadow: 0 8px 24px rgba(160, 20, 34, 0.25);
+}
+
+.custom-nav .navbar-brand,
+.custom-nav .nav-link {
+    color: #fff;
+}
+
+.custom-nav .nav-link.active,
+.custom-nav .nav-link:hover {
+    color: #ffe5e9;
+}
+
+.hero {
+    background: linear-gradient(120deg, #fff0f3, #ffffff);
+    border: 1px solid #ffd4db;
+    border-radius: 20px;
+}
+
+.card,
+.table,
+.form-control,
+.form-select,
+.input-group-text,
+.list-group-item {
+    border-color: #ffd4db;
+}
+
+.product-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(112, 25, 33, 0.12);
+}
+
+.product-thumb {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #fff3f5;
+}
+
+.btn-brand {
+    --bs-btn-bg: var(--rc-primary);
+    --bs-btn-border-color: var(--rc-primary);
+    --bs-btn-hover-bg: var(--rc-primary-dark);
+    --bs-btn-hover-border-color: var(--rc-primary-dark);
+    --bs-btn-color: #fff;
+}
+
+.metric-card {
+    background: linear-gradient(145deg, #fff, #fff5f6);
+}
+
+[data-bs-theme="dark"] body {
+    --rc-text: #f3f4f6;
+    background:
+        radial-gradient(circle at 0% 0%, #3c1117 0, transparent 35%),
+        radial-gradient(circle at 100% 20%, #321017 0, transparent 40%),
+        linear-gradient(160deg, #17090c 0%, #120a0a 45%, #0f172a 100%);
+}
+
+[data-bs-theme="dark"] .hero,
+[data-bs-theme="dark"] .metric-card,
+[data-bs-theme="dark"] .card,
+[data-bs-theme="dark"] .table,
+[data-bs-theme="dark"] .list-group-item {
+    background-color: #211014;
+    border-color: #4a1c24;
+}
+
+[data-bs-theme="dark"] .custom-nav {
+    background: linear-gradient(90deg, #5f101b, #8c1522);
+}
